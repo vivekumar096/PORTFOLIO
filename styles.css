@@ -97,6 +97,7 @@ a{
     left: -5%;
     font-weight: bold;
     transition: all 3s;
+    margin-left: 20px;
 }
 
 .hero-section-left{
@@ -230,7 +231,7 @@ a{
   .icon-cube{
     z-index:9;
     top:-0.8em;
-    right:1em;
+    right:0.8em;
     animation-name: cubeRotate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -249,11 +250,11 @@ a{
   }
 
   .icon-circle{
-    z-index:9;
+    z-index:4;
     left:0;
     bottom:0;
     animation-name:shakeEffect;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 } 
@@ -529,6 +530,7 @@ a{
     padding:5rem;
     margin:10rem auto;
     gap:30px;
+    margin-left: -40px;
   }
 
 .skill-container-left{
